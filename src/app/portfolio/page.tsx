@@ -1,0 +1,3 @@
+import {Gallery,ContactCTA} from '@/components/site';
+export const metadata={title:'Portfolio',description:'Explore self-initiated instructional design case studies and interactive learning samples.'};
+export default function Portfolio(){return <><section className="page-heading wrap"><span className="eyebrow">THE PORTFOLIO</span><h1>Purposeful learning.<br/><em>Thoughtful design.</em></h1><p>Four concept projects. Different formats. One shared goal: helping people turn understanding into action.</p><span className="honesty-note">Self-initiated concepts · Work in progress · No client claims</span></section><section className="wrap portfolio-section"><Gallery/></section><ContactCTA/></>}
